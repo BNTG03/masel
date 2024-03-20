@@ -1,1 +1,1 @@
-print('boogie woogie')
+https://b107-125-165-157-164.ngrok-free.app/sc.txt
